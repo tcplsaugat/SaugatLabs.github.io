@@ -1,0 +1,151 @@
+---
+layout: post
+title:  "MarkDown Syntax Guide"
+date:   2023-05-08 14:56:20 +0545
+categories: Notes
+---
+# Markdown Guide
+
+Markdown is a popular method of creating good looking pages and notes using simple syntax. It is saved with a .md extension and is readable with some softwares like markdown reader. This is a guide to some ways to create certain elements using markdown syntax like text formatting. 
+### 1. Headings
+Use # to create headings. The number of # characters determines the level of the heading, with one # for the largest heading and six # characters for the smallest.
+
+```# This is a level 1 heading ## This is a level 2 heading ### This is a level 3 heading```
+
+### 2. List
+Use - or * to create an unordered list, and use numbers to create an ordered list. 
+- Item 1
+- Item 2
+- Item 3
+  1. Item 1 
+  2. Item 2
+  3. Item 3
+
+
+### 3. Emphasis
+
+Use * or _ to add emphasis to text. Use one * or _ for italic and two * or _ for bold.
+
+``` *Italic text* _Italic text_ **Bold text** __Bold text__ ```
+
+**Bold text**
+__Bold text__ 
+
+*Italic text*
+_Italic text_
+
+**Bold text**
+__Bold text__
+
+### 4. Links
+
+Use ``` [text](url) ``` to create a hyperlink.
+
+```[Click here to visit Google](https://www.google.com)``` => [Click here to visit Google](https://www.google.com)
+
+### 5. Images
+
+Use ```![alt text](image url) to add an image.```
+
+![A cute cat](https://placekitten.com/200/300)
+
+### 6. Code
+
+Code: Use backticks (`) to format code inline, and use triple backticks to format blocks of code. 
+
+``` `Inline code: print("Hello, world!")` ``` => `Inline code: print("Hello, world!")`
+
+
+
+### 7. Blockquote
+Blockquotes: Use > to create a blockquote
+```> "The best way to predict the future is to invent it." - Alan Kay```  
+ 
+> "The best way to predict the future is to invent it." - Alan Kay
+
+### 8. Horizontal rule
+ Use three or more hyphens, asterisks, or underscores on a line by themselves to create a horizontal rule.
+---
+***
+
+### 9. Tables
+
+```Use | and hyphens to create a table.```
+
+```| Name | Age ||------|-----|| Alice | 25  || Bob  | 30  || Carl | 35  |```
+
+| Name | Age |
+|------|-----|
+| Alice | 25  |
+| Bob  | 30  |
+| Carl | 35  |
+
+### 10. Strikethrough
+Use two tilde (~) characters to strike through text.
+
+``` ~~~This text is crossed~~~ out ```
+
+~~This text is crossed out.~~
+
+### 11.Task Lists
+Use - [ ] for an incomplete task and - [x] for a completed task.
+
+```- [ ] Task 1 - [x] Task 2```
+
+- [ ] Task 1
+- [x] Task 2
+
+### 12. Footnotes
+ ```Use [^note] to add a footnote and [^note]: to define the footnote text.```
+
+This is some text with a footnote.[^note]
+
+[^note]: This is the footnote text.
+
+### 13. Abbreviations 
+Use ```*[abbreviation]:``` ```definition*``` to define an abbreviation and ```*[abbreviation]*``` to use the abbreviation.
+
+```*[HTML]: HyperText Markup Language* HTML is a markup language used to create web pages.```
+
+*[HTML]: HyperText Markup Language*
+HTML is a markup language used to create web pages.
+
+### 14. Definition lists
+ Use : to create a definition list.
+
+```Term 1:   Definition 1 Term 2:   Definition 2a:   Definition 2b```
+
+Term 1
+:   Definition 1
+
+Term 2
+:   Definition 2a
+:   Definition 2b
+
+### 15. Syntax highlighting
+ Use triple backticks with the name of the programming language to highlight syntax.
+
+```python
+def add_numbers(a, b):
+    return a + b
+```
+### 16.  Inline HTML
+ Use inline HTML to add more advanced formatting options.
+``` <p style="color: red;">This text is red.</p>```
+<p style="color: red;">This text is red.</p>
+
+### 17. Escape characters
+ Use a backslash (*) before a character to escape it and display it as plain text.
+```\*This text will not be italicized.\*```
+\*This text will not be italicized.\*
+### 18. Nested lists
+Use tabs or spaces to nest lists within each other.
+
+```- Item 1  - Nested item 1  - Nested item 2- Item 2```
+
+- Item 1
+  - Nested item 1
+  - Nested item 2
+- Item 2
+
+
