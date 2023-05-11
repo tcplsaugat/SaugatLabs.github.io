@@ -18,7 +18,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Second-Take # the main title
+title: Double-Take # the main title
 
 tagline: Reasonable Reasoning # it will display as the sub-title
 
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/332432595_508793257866922_4449795857131670274_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=sQSs-xTVlnMAX934qRb&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBHyzjMvwbyJehb8JarYNmmSP0UcOYRJ3CryzaW_Cp0zQ&oe=645D5EA3
+avatar: https://www.dailydot.com/wp-content/uploads/76c/59/blinking.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
